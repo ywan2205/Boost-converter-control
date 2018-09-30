@@ -2,6 +2,12 @@
 // This example uses the timer interrupt to sample feedback from boost converter.
 // The sampling time is set as 5kHz
 // After the calculation of PID is done, it will generate a PWM output with 100kHz frequency.
+//The parameters of this boost converter are shown below:
+//inputVoltage = 6;
+//outputVoltage = 12;
+//inductor = 833e-5;
+//capacitor = 470e-6;
+//resistor = 47;
 
 #include <PWM.h>
 
