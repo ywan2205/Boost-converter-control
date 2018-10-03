@@ -13,7 +13,7 @@ figure(1)
 subplot(4,1,1)%output current(from transfer function)
 plot(T001,I_L)
 box off;grid;axis tight
-legend('\itI','Orientation','horizontal')%Ìí¼ÓÍ¼Àı
+legend('\itI','Orientation','horizontal')%ÃŒÃ­Â¼Ã“ÃÂ¼Ã€Ã½
 xlabel('ms','FontName','Times New Roman','FontSize',14);
 ylabel('I','FontName','Times New Roman','FontSize',14);
 ylim([0, 5.5])
